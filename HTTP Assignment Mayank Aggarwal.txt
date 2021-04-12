@@ -1,0 +1,33 @@
++																																					HTTP Request Methods
+
+1.GET:GET HTTP Request is used to Retrieve information from the Server or an API.
+2.HEAD:HEAD HTTP Request is similar to GET Request.The Difference between GET and HEAD Request is that HEAD Request just return the Response from Server
+ and does not returns any content while on making GET Request,User gets both Response and Content from the Server.HEAD Request is used to know what type of Response we are getting from the Server 
+ on making a particular Request.
+3.PUT:PUT HTTP Request is used to update some Data or Content on a Server.
+4.POST:POST HTTP Request is also used to update Data on a Server.The Major Difference between the PUT and POST Request is that PUT Request will delete the existing contents of Server and Update the data sent by the Client.
+  While in POST Request,data sent by the client in updated on the Server without deleting previous data.Example-If I will make same multiple PUT Request on a Server then only one Resource will be created on the Server but in POST 
+  Request Multiple Files of Same Resources will get Created on the Server.
+5.DELETE:DELETE Request is used to delete a specified Resource on the Server.
+6.PATCH:PATCH Request is used to modify Specified Resource on the Server.
+
+
+HTTP Request:HTTP Requests are the Request Mesages send by the Client to the Server to Manipulate Specified Data.
+HTTP Headers:-HTTP Headers are used to pass an additional information along with HTTP Request or HTTP Response.There are four types of Headers:-
+
+1.General Headers-General Headers can be used along on both client and server side and does not contain information related to data.
+2.Request Headers-Request Headers contain additional Information about the HTTP Request or Client.
+3.Response Headers-Response Headers contain additional Information about the HTTP Response or Server.
+4.Entity Headers-They Contain information about entity of body or content present inside the Resource like Content length,Encoding etc.
+
+
+HTTP Response Codes:-
+1.Informational Response(100-199)
+2.Successful Response(200-299)
+3.Redirects(300-399)
+4.Client Errors(400-499)
+5.Server Errors(500-599)
+
+URL-URL Stands for Uniform Resource Locator and it is used to identify Address on the Internet.
+URI-URI Stands for Uniform Resource Identifier which is used to identify a Resource on the Website/Address.
+ 
